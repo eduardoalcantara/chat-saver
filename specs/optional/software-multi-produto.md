@@ -40,7 +40,7 @@ Padronizar a estrutura e o rito de trabalho no Cursor para sistemas greenfield c
 3. Criar (ou referenciar) spec de contrato de plataforma e specs por produto em `specs/to-do/` quando o operador autorizar a sequência.
 4. Definir ordem de implementação: domínio/dados → migrations/seeds → API+contrato → web → mobile → CI/observabilidade.
 5. Exigir que mudanças em `shared/` ou no contrato listem impacto nos consumidores.
-6. Manter segredos fora do Git/CCIA; versionar só `.env.example`.
+6. Manter segredos fora do Git; versionar só `.env.example`.
 7. Não misturar produtos no mesmo prompt sem autorização explícita.
 
 ## Resultado esperado
@@ -71,7 +71,6 @@ Em `docs/adr/` (se ainda não existir): pasta com `readme.md` explicando que dec
 - [ ] Esta spec foi promovida de `optional/` → `to-do/` antes da implementação
 - [ ] Nenhuma stack concreta imposta sem ADR ou pedido explícito
 - [ ] Documentação atualizada (`status.md`, `timeline.md`)
-- [ ] CCIA gravado se a entrega for relevante (ler CCIA só sob pedido explícito)
 
 ## Impacto
 

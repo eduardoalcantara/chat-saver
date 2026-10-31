@@ -2,22 +2,21 @@
 
 ## Pré-requisitos
 
-- Conta GitHub (para criar o repo a partir do template)
+- Conta GitHub
 - Git
 - Cursor IDE
 - Ferramentas de domínio conforme `tools-linux.md` ou `tools-windows.md`
 
 ## Instalação
 
-1. No GitHub, use **Use this template** (ou selecione este template em **Start with a template**).
-2. Clone o repositório gerado:
+1. Clone o repositório:
 
 ```bash
 git clone <URL_DO_NOVO_REPO>
 cd <NOME_DO_REPO>
 ```
 
-3. Abra a pasta no Cursor.
+2. Abra a pasta no Cursor.
 
 ## Bootstrap
 
@@ -52,13 +51,13 @@ cd <NOME_DO_REPO>
 
 1. Crie a primeira spec em `specs/to-do/` usando `spec-template.md`.
 2. Peça ao Cursor para seguir `flow.md` e implementar somente o escopo da spec.
-3. Ao final, confira `status.md` / `timeline.md` se material. CCIA: gravar se relevante (projetos derivados); ler só se você pedir. Não use `.prompt-status`.
+3. Ao final, confira `status.md` / `timeline.md` se material. Não use `.prompt-status`.
 
 ## Solução de problemas
 
 | Problema | Ação |
 |---|---|
-| Falta pasta ou arquivo da raiz | Recriar a partir deste template ou restaurar do commit de fundação |
+| Falta pasta ou arquivo da raiz | Restaurar do commit de fundação |
 | Script de validação falha | Conferir caminhos e permissões de execução |
 | Agente ignora regras | Reforçar leitura de `AGENTS.md`, `rules.md` e `flow.md` |
 | Segredos commitados por engano | Rotacionar credenciais; remover do histórico se necessário |

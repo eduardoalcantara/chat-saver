@@ -20,7 +20,7 @@ Faça somente o seguinte:
 3. Adicionar uma entrada em `timeline.md` registrando a criação do projeto a partir do template.
 4. Criar a primeira spec em `specs/to-do/` usando `spec-template.md`, com escopo **[DESCREVER]**.
 
-Não implemente o domínio ainda. Não altere a estrutura de pastas sem necessidade. Coloque conteúdo específico futuro em `/core`. Não leia CCIA/handoff a menos que eu peça.
+Não implemente o domínio ainda. Não altere a estrutura de pastas sem necessidade. Coloque conteúdo específico futuro em `/core`.
 
 ## Critérios de aceite
 
